@@ -3,7 +3,7 @@
  */
 
 /* Filters style */
-.filters{
+.filters {
     background-color: white;
     height: 70px;
     width: 100%;
@@ -13,7 +13,7 @@
 }
 
 /* Search button style */
-button{
+button {
     margin-top: 11px;
     margin-bottom: 11px;
     margin-right: 30px;
@@ -27,12 +27,12 @@ button{
 }
 
 /* Search button hover opacity */
-button:hover{
+button:hover {
     opacity: 90%;
 }
 
 /* Locations and amenities style */
-.locations{
+.locations {
     text-align: left;
     height: 100%;
     width: 25%;
@@ -40,7 +40,7 @@ button:hover{
     float: left;
 }
 
-.amenities{
+.amenities {
     text-align: left;
     align-content: flex-start;
     height: 100%;
@@ -52,14 +52,17 @@ button:hover{
  * --- Places header styles ---
  */
 
-.amenities h3, .locations h3{
+.amenities h3,
+.locations h3 {
     font-weight: 600;
     margin: 0px;
     margin-top: 17px;
     padding: 0px;
     padding-left: 30px;
 }
-.amenities h4, .locations h4{
+
+.amenities h4,
+.locations h4 {
     margin: 0px;
     padding: 0px;
     font-weight: 400;
@@ -71,7 +74,7 @@ button:hover{
  * dropdown hover behaviour
  */
 
-.popover{
+.popover {
     visibility: hidden;
     background-color: #FAFAFA;
     border: solid #DDDDDD 1px;
@@ -81,32 +84,32 @@ button:hover{
 
 }
 
-.popover li h2{
+.popover li h2 {
     font-size: 16px;
     padding: 0;
     margin: 0;
 }
 
-.popover_list{
-    padding:0px;
-    margin:0px;
+.popover_list {
+    padding: 0px;
+    margin: 0px;
     padding-left: 10%;
 }
 
-li{
+li {
     list-style-type: none;
     padding-bottom: 5%;
 }
 
-ul{
+ul {
     padding-top: 30px;
 }
 
-.locations:hover >.popover{
+.locations:hover > .popover {
     visibility: visible;
     margin-bottom: 50px;
 }
 
-.amenities:hover > .popover{
+.amenities:hover > .popover {
     visibility: visible;
 }
